@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="synthwave">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.4.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        daisyui: {
+          themes: [
+            {
+              newTheme: {
+                primary: 'a991f7',
+              },
+            },
+            'synthwave',
+          ],
+        },
+      }
+    </script>
   </head>
   <body>
-    Hello world! xd
+    <div class="mx-auto max-w-screen-xl">
+      <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-xl">Piero Carneiro</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Github</a></li>
+            <li><a>Linkedin</a></li>
+            <li><a>CV</a></li>
+            <li>
+              <details>
+                <summary>Optional</summary>
+                <ul class="p-2 bg-base-100">
+                  <li><a>Link 1</a></li>
+                  <li><a>Link 2</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
