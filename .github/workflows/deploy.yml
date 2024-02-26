@@ -87,3 +87,24 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          path: master
+      
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+      
+      - name: Copy file to gh-pages
+        run: |
+          cp master/_local.yml gh-pages/
+          cd gh-pages
+          git add _local.yml
+          git commit -m "Copy _local.yml to gh-pages"
+          git push origin gh-pages
+
