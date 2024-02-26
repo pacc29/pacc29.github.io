@@ -82,9 +82,9 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-          
       - name: Switch to target branch
         run: |
+          git fetch --all
           git checkout gh-pages
       - name: Copy file from master branch
         run: |
