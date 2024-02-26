@@ -81,23 +81,7 @@ jobs:
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
-          purgecss -c purgecss.config.js
-      - name: Switch to target branch
-        run: |
-          git fetch --all
-          git checkout gh-pages
-      - name: Copy file from master branch
-        run: |
-          git fetch origin master
-          git checkout master -- _local.yml
-      - name: Commit and push
-        run: |
-          git config --global user.name 'Piero Carneiro'
-          git config --global user.email 'pierocarneiro2908@gmail.com'
-          git add _local.yml
-          git commit -m "Copied file to deployment branch"
-          git push origin gh-pages
-          
+          purgecss -c purgecss.config.js          
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
