@@ -84,7 +84,8 @@ jobs:
           purgecss -c purgecss.config.js
           
       - name: Switch to target branch
-        run: git checkout gh-pages
+        run: |
+          git checkout gh-pages
       - name: Copy file from master branch
         run: |
           git fetch origin master
