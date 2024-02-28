@@ -1,3 +1,15 @@
 ---
 - hosts: localhost
-- become: true
+  tasks:
+  - name: Sincronizar archivos
+    become: true
+    ansible.builtin.synchronize:
+      src: /home/pi/.ansible/pull/pi
+      dest: /var/www/html/blog
+      links: yes
+  - name: Recargar nginx
+    become: true
+    ansible.builtin.service:
+      name: nginx
+      state: reloaded
+      enabled: true
