@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "Nombre": "Piero Carneiro",
+    "Ocupación": "Desarrollador de Software",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "pierocarneiro2908@gmail.com",
+    "Teléfono": "+51 943 525 078",
+    "url": "https://pierocarneiro.xyz",
+    "summary": "Soy un desarrollador de software con más de 3 años de experiencia, siempre dispuesto a aprender nuevas tecnologı́as y adaptarme a los cambios. Actualmente me encuentro en la búsqueda de un puesto como desarrollador de software y/o administrador de sistemas. Mi experiencia y mi deseo constante de crecimiento y aprendizaje me permiten aportar valor y adaptabilidad a cualquier equipo de desarrollo de software.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,13 +24,36 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Binswanger Perú",
+      "position": "Analista Programador",
+      "startDate": "2023-12-01",
+      "endDate": "2024-02-29",
+      "summary": "Gestioné y modernicé un software de gestión de incidentes en edificios corporativos, interpretando y implementando eficazmente los requerimientos empresariales. Implementé tests unitarios en Laravel 8 para validar la funcionalidad del software y desarrollé una suite de pruebas automatizadas con Selenium WebDriver en Python, utilizando el patrón de diseño Page Object Model (POM), para validar formularios, la navegación web y la correcta visualización de los elementos de la interfaz de usuario. Además, implementé un servidor EC2 en AWS con Ubuntu 22.04 LTS para la gestión de activos de TI, configuré Amazon Route 53 para la redirección al dominio, instalé certificados SSL y configuré la base de datos en Amazon RDS para garantizar la seguridad y la eficiencia del sistema.",
+      "highlights": ["AWS", "Laravel", "PHP"]
+    },
+    {
+      "name": "Corporación IBGroup",
+      "position": "Programador PHP/Laravel FullStack",
+      "startDate": "2023-01-01",
+      "endDate": "2023-11-29",
+      "summary": "En un proyecto PHP, implementé estrategias de diseño y pruebas para optimizar la eficiencia y la mantenibilidad. Utilicé APIs externas para enriquecer el contenido del sitio web y conduje una migración exitosa a Laravel 10 para mejorar la organización y la eficiencia del desarrollo. Además, desarrollé un sistema de validación de formularios en tiempo real y herramientas de administrador para facilitar la gestión de la web. Todo esto resultó en una mejora significativa en el rendimiento y la usabilidad de la aplicación.",
+      "highlights": ["Laravel", "Livewire", "PHP"]
+    },
+    {
+      "name": "Inversiones VANPIER",
+      "position": "Administrador de Sistemas",
+      "startDate": "2021-01-01",
+      "endDate": "2022-12-15",
+      "summary": "Implementé un flujo de trabajo de integración continua con GitHub Actions para un aplicativo web, asegurando una versión actualizada y funcional lista para ser desplegada. Utilicé Ansible-pull y un cronjob para la entrega continua, manteniendo el aplicativo actualizado y minimizando el tiempo de inactividad durante las actualizaciones. Además, colaboré con el equipo de diseño para realizar modificaciones en la página web en un proyecto que involucra ASP.NET y Angular, cumpliendo con los estándares de diseño y funcionalidad.",
+      "highlights": ["Angular", "Linux", "GitHub Actions"]
+    },
+    {
+      "name": "Portalámparas S.A.C.",
+      "position": "Programador de Máquinas CNC",
+      "startDate": "2019-01-01",
+      "endDate": "2020-03-01",
+      "summary": "En una planta metalmecánica, supervisé y operé maquinaria industrial, diseñé cortes precisos en metal utilizando programas especializados y AutoCAD. Me encargué de la calibración del equipo para garantizar un rendimiento óptimo y coordiné el programa de producción para optimizar los tiempos y mantener una comunicación fluida entre los departamentos.",
+      "highlights": ["AutoCAD 2018", "SolidWorks"]
     }
   ],
   "volunteer": [
@@ -46,15 +69,22 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Universidad Tecnológica del Perú",
+      "location": "Lima, Perú",
+      "area": "Ingeniería Electrónica",
+      "studyType": "Bachiller",
+      "startDate": "2013-01-01",
+      "endDate": "2018-01-01",
+      "score": "10"
+    },
+    {
+      "institution": "Universidad Nacional de Ingeniería",
+      "location": "Lima, Perú",
+      "area": "Hardware",
+      "studyType": "Técnico",
+      "startDate": "2007-01-01",
+      "endDate": "2007-12-01",
+      "score": "10"
     }
   ],
   "awards": [
@@ -68,47 +98,35 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Build Responsive Real-World Websites with HTML and CSS",
+      "issuer": "Udemy - 2023-11-01",
+      "icon": "fa-solid fa-star"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Java 17 Front End Developer",
+      "issuer": "Cibertec - 2023-12-01",
+      "icon": "fa-solid fa-star"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Node.js, Express, MongoDB and More: The Complete Bootcamp",
+      "issuer": "Udemy - 2023-12-01",
+      "icon": "fa-solid fa-star"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Intermediate Machine Learning",
+      "issuer": "Kaggle - 2024-01-01",
+      "icon": "fa-solid fa-star"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "name": "Intro to Machine Learning",
+      "issuer": "Kaggle - 2024-01-01",
+      "icon": "fa-solid fa-star"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
+      "name": "Advanced SQL",
+      "issuer": "Kaggle - 2024-01-01",
+      "icon": "fa-solid fa-star"
+    }    
   ],
   "publications": [
     {
@@ -135,28 +153,84 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Lenguajes",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Javascript",
+        "Typescript",
+        "Node.js",
+        "PHP",
+        "Python",
+        "Bootstrap/Tailwind",
+        "SQL",
+        "C/C++"
+      ]
+    },
+    {
+      "name": "Bases de datos",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "MySQL",
+        "SQLServer",
+        "PostgreSQL",
+        "SQLite3",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Laravel",
+        "React",
+        "Vue.js",
+        "Angular",
+        "PHPUnit"
+      ]
+    },
+    {
+      "name": "Herramientas",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Git",
+        "Docker",
+        "Amazon Web Services",
+        "GitHub Actions",
+        "Terraform",
+        "Ansible Automation",
+        "Linux Server"
+      ]
+    },
+    {
+      "name": "Librerías",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "JQuery",
+        "Express",
+        "Mongoose",
+        "Pandas",
+        "Numpy",
+        "ScikitLearn",
+        "Highcharts",
+        "Livewire",
+        "Selenium"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Inglés",
+      "fluency": "Avanzado",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Portugués",
+      "fluency": "Avanzado",
       "icon": ""
     }
   ],
