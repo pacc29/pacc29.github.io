@@ -4,8 +4,8 @@
   - name: Sincronizar archivos
     become: true
     ansible.builtin.synchronize:
-      src: /home/pi/.ansible/pull/pi
-      dest: /var/www/html/blog
+      src: /home/pi/.ansible/pull/pi/
+      dest: /var/www/html/
       links: yes
   - name: Recargar nginx
     become: true
