@@ -356,7 +356,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-quality 85"
+    webp: "-quality 95"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -462,15 +462,15 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 jsonresume:
-  - basics
-  - skills
-  - work
-  - education
+  - Informacion Básica
+  - Habilidades Técnicas
+  - Experiencia Laboral
+  - Educación
   # - publications
   # - projects
   # - volunteer
   # - awards
-  - certificates
-  - languages
+  - Certificados
+  - Lenguajes
   # - interests
   # - references

@@ -81,11 +81,11 @@ layout: default
             <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
             <div>
               {% case data[0] %}
-                {% when 'basics' %}
+                {% when 'Informacion Básica' %}
                   {% include resume/basics.liquid %}
-                {% when 'education' %}
+                {% when 'Educación' %}
                   {% include resume/education.liquid %}
-                {% when 'work' %}
+                {% when 'Experiencia Laboral' %}
                   {% include resume/work.liquid %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
@@ -93,15 +93,15 @@ layout: default
                   {% include resume/projects.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
-                {% when 'skills' %}
+                {% when 'Habilidades Técnicas' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
                   {% include resume/publications.liquid %}
-                {% when 'languages' %}
+                {% when 'Lenguajes' %}
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
-                {% when 'certificates' %}
+                {% when 'Certificados' %}
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}

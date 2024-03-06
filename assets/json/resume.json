@@ -1,5 +1,5 @@
 {
-  "basics": {
+  "Informacion Básica": {
     "Nombre": "Piero Carneiro",
     "Ocupación": "Desarrollador de Software",
     "image": "",
@@ -22,7 +22,7 @@
       }
     ]
   },
-  "work": [
+  "Experiencia Laboral": [
     {
       "name": "Binswanger Perú",
       "position": "Analista Programador",
@@ -67,7 +67,7 @@
       "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
-  "education": [
+  "Educación": [
     {
       "institution": "Universidad Tecnológica del Perú",
       "location": "Lima, Perú",
@@ -96,7 +96,7 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
+  "Certificados": [
     {
       "name": "Build Responsive Real-World Websites with HTML and CSS",
       "issuer": "Udemy - 2023-11-01",
@@ -151,7 +151,7 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
-  "skills": [
+  "Habilidades Técnicas": [
     {
       "name": "Lenguajes",
       "level": "Master",
@@ -222,7 +222,7 @@
       ]
     }
   ],
-  "languages": [
+  "Lenguajes": [
     {
       "language": "Inglés",
       "fluency": "Avanzado",
