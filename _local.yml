@@ -7,6 +7,7 @@
       src: /home/pi/.ansible/pull/pi/
       dest: /var/www/html/
       links: yes
+      delete: yes
   - name: Recargar nginx
     become: true
     ansible.builtin.service:
