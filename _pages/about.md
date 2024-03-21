@@ -1,9 +1,7 @@
 ---
 layout: about
-title: Acerca
+title: Acerca de mí
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
 profile:
   align: right
   image: prof_pic.jpg
@@ -18,10 +16,10 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Aqui va algo acerca de mi.
+Soy Piero Carneiro de Lima, Perú, con grado de Bachiller en Ingeniería Electrónica. Durante la pandemia, decidí utilizar mi tiempo para adquirir nuevas habilidades y expandir mis oportunidades laborales.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Mi experiencia en programación comenzó con el lenguaje C, lo que me facilitó el aprendizaje de otros lenguajes de alto nivel. Esta transición al campo de IT fue un proceso gradual pero rápido.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Desde mi adolescencia, he tenido interés en diferentes distribuciones de Linux. Comencé a explorar Linux por curiosidad sin saber realmente en lo que me metía, eligiendo Fedora 6 por su atractivo fondo de pantalla. Con el tiempo, descubrí que mis habilidades en Linux eran útiles para el desarrollo web y la configuración de servidores web tanto en entornos locales como en la nube.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Mi formación en electrónica, programación y sistemas me proporciona una perspectiva amplia en IT que me permite enfrentar desafíos de manera creativa e integral.
