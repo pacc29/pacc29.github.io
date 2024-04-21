@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Sincronizar archivos
+    become: true
+    ansible.builtin.synchronize:
+      src: /root/.ansible/pull/DietPi/
+      dest: /var/www/pierocarneiro/
+      links: yes
+      delete: yes
+  - name: Recargar nginx
+    become: true
+    ansible.builtin.service:
+      name: nginx
+      state: reloaded
+      enabled: true
