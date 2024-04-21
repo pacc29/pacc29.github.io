@@ -5,7 +5,7 @@
     become: true
     ansible.builtin.synchronize:
       src: /root/.ansible/pull/DietPi/
-      dest: /var/www/
+      dest: /var/www/pierocarneiro/
       links: yes
       delete: yes
   - name: Recargar nginx
